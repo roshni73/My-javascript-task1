@@ -1,5 +1,5 @@
 # My-javascript-task1
-This is a simple task that demonstrates array Basic JavaScript
+This is a simple task that demonstrates  Basic JavaScript
 ## Event Loop
 The event loop is a mechanism in JavaScript that handles the execution of multiple chunks of your program over time. Each chunk is a piece of code that is executed by the JavaScript engine, which could be a function, a callback, or an event handler. The event loop allows JavaScript to perform non-blocking operations by offloading operations to the system kernel whenever possible.
 ```javascript
