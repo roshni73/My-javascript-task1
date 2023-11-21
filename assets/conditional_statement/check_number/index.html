@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Check Number</title>
+  <style>
+    body {
+      font-family:'Franklin Gothic Medium', Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+    }
+
+    input[type="number"],
+    button {
+      padding: 10px;
+      margin: 10px;
+    }
+
+    button {
+      cursor: pointer;
+      border-radius: 10px;
+      background-color: coral;
+    }
+
+    #result {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Check Number</h1>
+  <label for="numberInput">Enter a number:</label>
+  <input type="number" id="numberInput"max="10" min="-5" required><br>
+  <button onclick="checkNumber()">Check</button>
+  <p id="result"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>

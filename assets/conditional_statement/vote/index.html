@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Check Eligibility to Vote</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+    }
+
+    input[type="number"],
+    button {
+      padding: 10px;
+      margin: 10px;
+      width: 20%;
+      
+    }
+
+    button {
+      cursor: pointer;
+      background-color: coral;
+      border-radius: 10px;
+
+    }
+
+    #result {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Check Eligibility to Vote</h1>
+  <label for="ageInput">Enter your age:</label>
+  <input type="number" id="ageInput" min="0" max="40" required><br><br>
+  <button onclick="checkEligibility()">Check Eligibility</button>
+  <p id="result"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
