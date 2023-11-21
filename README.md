@@ -10,6 +10,8 @@ setTimeout(function() {
 }, 0);
 
 console.log('End'); // This will run second
+```javascript
+
 
 ## JavaScript Threading
 
