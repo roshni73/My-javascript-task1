@@ -15,8 +15,10 @@ An IIFE is a function that runs as soon as it is defined. The function expressio
 ``````javascript
 (function() {
     let message = 'Hello, world!';
-    console.log(message); // 'Hello, world!'
+    console.log(message); 
 })();
 
-console.log(message);
-````
+console.log(message);//undefined
+
+## Array Manipulation
+### difference between map and forEac
