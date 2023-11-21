@@ -1,7 +1,7 @@
 // example of using array destructuring to swap the values of twom variables.
 
-let a = [1, 2, 3, 4];
+let a = [22,33,44,55,66];
 
-[a[1], a[2]] = [a[2], a[1]];
+[a[0],a[3]]=[a[3],a[0]];
 
 console.log(a);

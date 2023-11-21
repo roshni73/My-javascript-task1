@@ -1,16 +1,19 @@
-const books = [
-    { id: 1, title: 'Harry Potter', author: 'J. K. Rowling' },
-    { id: 2, title: 'Lord of the Rings', author: 'J. R. R. Tolkien' },
-    { id: 3, title: 'The Hobbit', author: 'J. R. R. Tolkien' },
-    { id: 4, title: 'A Game of Thrones', author: 'George R. R. Martin' },
-];
 
-function sortBookObjectByTitle(book)
-{
-    return book.sort((a, b) => a.title.localeCompare(b.title));
-}
+function bubbleSort(arr){
 
-let data = sortBookObjectByTitle(books);
-data.forEach(item => {
-    console.log(item);
-});
+    for(let i = 0; i < arr.length; i++){
+
+        for(let j = 0; j < arr.length - i - 1; j++){
+
+            if(arr[j + 1] < arr[j]){
+
+                [arr[j + 1],arr[j]] = [arr[j],arr[j + 1]]
+            }
+        }
+    };
+    return arr;
+};
+
+numbers = [5,3,8,4,6];
+sortedNumbers = bubbleSort(numbers);
+console.log(sortedNumbers);
